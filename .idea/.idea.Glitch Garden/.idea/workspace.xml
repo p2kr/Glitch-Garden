@@ -19,19 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e96bd8d1-f352-4382-8ffd-9c9d26fd995d" name="Default Changelist" comment="Spawn Attackers using coroutines">
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Cactus.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Cactus/Cactus Idle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Cactus/Cactus Idle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Cactus/Cactus Looping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Cactus/Cactus Looping.png.meta" afterDir="false" />
+    <list default="true" id="e96bd8d1-f352-4382-8ffd-9c9d26fd995d" name="Default Changelist" comment="Setup Defender prefab">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Zucchini.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Zucchini.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Shooter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Cactus/Zucchini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Cactus/Zucchini.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Glitch Garden/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Glitch Garden/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Glitch Garden/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Glitch Garden/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lizard Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Lizard Jump.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lizard Walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Lizard Walk.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Trophy Bounce.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Trophy Bounce.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Trophy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Trophy.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Defenders/Cactus Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Defenders/Cactus Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Defenders/Cactus Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Defenders/Cactus Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Defenders/Cactus.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Defenders/Cactus.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start Screen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start Screen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Z Glitch Garden Assets 2.0/Spritesheets/Zucchini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Z Glitch Garden Assets 2.0/Spritesheets/Zucchini.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/_UNITY_FILES/_Unity2D/Glitch Garden/Assets/Scripts/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attacker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shooter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/_UNITY_FILES/_Unity2D/Glitch Garden/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -52,6 +58,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
       </list>
     </option>
   </component>
@@ -102,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602684198021</updated>
       <workItem from="1602684206899" duration="693000" />
-      <workItem from="1602686017876" duration="5066000" />
+      <workItem from="1602686017876" duration="6883000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Up 3">
       <created>1602684234031</created>
@@ -125,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602698113848</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Setup Defender prefab">
+      <created>1602699673726</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602699673726</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,11 +162,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Starting Up 3" />
     <MESSAGE value="Before ANimation" />
     <MESSAGE value="Spawn Attackers using coroutines" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spawn Attackers using coroutines" />
+    <MESSAGE value="Setup Defender prefab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Defender prefab" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -160,10 +177,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="23" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1602698289083" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1602698134269">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1602699689883">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1602698134269" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1602699689883" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602686127904">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
