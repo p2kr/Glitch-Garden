@@ -19,20 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e96bd8d1-f352-4382-8ffd-9c9d26fd995d" name="Default Changelist" comment="Implementing Health and damage">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion VFX.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion VFX.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VFX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion Stars.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion Stars.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion VFX.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion VFX.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion-stars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion-stars.png.meta" afterDir="false" />
+    <list default="true" id="e96bd8d1-f352-4382-8ffd-9c9d26fd995d" name="Default Changelist" comment="Adding particle effect">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cactus.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cactus.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Glitch Garden/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Glitch Garden/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Glitch Garden/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Glitch Garden/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lizard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lizard.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start Screen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start Screen.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +55,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs" />
       </list>
     </option>
   </component>
@@ -154,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602742685714</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding particle effect">
+      <created>1602743819310</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602743819310</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +186,8 @@
     <MESSAGE value="Setup Defender prefab" />
     <MESSAGE value="Adding motion to projectile" />
     <MESSAGE value="Implementing Health and damage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing Health and damage" />
+    <MESSAGE value="Adding particle effect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding particle effect" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -197,10 +200,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="VCS.FileHistoryDialog/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1602741610239" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1602742698387">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1602743821446">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1602742698387" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1602743821446" />
     <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602740368258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
